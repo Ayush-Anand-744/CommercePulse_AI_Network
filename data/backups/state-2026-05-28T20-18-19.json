@@ -1,0 +1,246 @@
+{
+  "cart": [],
+  "acknowledged": [
+    "WSB-014",
+    "KHU-022",
+    "KHU-031",
+    "WSB-027",
+    "WSB-051",
+    "BEG-002",
+    "GAY-003",
+    "BNK-005",
+    "AUR-008"
+  ],
+  "activity": [
+    {
+      "ic": "ℹ",
+      "t": "Role switched",
+      "d": "MoEFCC Policy — 14 modules accessible",
+      "time": "just now",
+      "user": "MoEFCC Policy"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Role switched",
+      "d": "Forest Officer — 12 modules accessible",
+      "time": "just now",
+      "user": "Forest Officer"
+    },
+    {
+      "ic": "✓",
+      "t": "Sync complete",
+      "d": "iNaturalist + GBIF added 12 species observations",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "⚠",
+      "t": "LIVE: NDVI anomaly at Saranda",
+      "d": "Auto-escalated to MoEFCC · click to view",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Welcome back to CommercePulse_AI_Network",
+      "d": "ZSI Scientist mode · State restored from server · 20 sites loaded",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "⚠",
+      "t": "Escalation transmitted to MoEFCC",
+      "d": "Case MoEFCC-ESC-20260528-2915 · 9 sites · MoEFCC Joint Secretary",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Escalation transmitted",
+      "d": "Case MoEFCC-ESC-20260528-2915 · 9 sites → MoEFCC Joint Secretary",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "NDVI scan complete",
+      "d": "Current 0.298 · Δ +0.015 · 0 affected px · SENTINEL-HUB",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Refreshed",
+      "d": "All 8 data sources re-fetched",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Range changed",
+      "d": "Showing last 7 days · daily ticks",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "Sync complete",
+      "d": "iNaturalist + GBIF added 12 species observations",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "⚠",
+      "t": "LIVE: NDVI anomaly at Saranda",
+      "d": "Auto-escalated to MoEFCC · click to view",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Welcome back to CommercePulse_AI_Network",
+      "d": "ZSI Scientist mode · State restored from server · 20 sites loaded",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Generating PDF report…",
+      "d": "Quarterly Biodiversity Report — same data as CSV, print-ready ZSI format",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "Welcome to CommercePulse_AI_Network",
+      "d": "You can replay the intro from Settings → Watch intro again",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "Playback complete",
+      "d": "2017→2026 timeline finished · 10 years of canopy change",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Generating FRA Form A…",
+      "d": "Opening 24-page evidence pack",
+      "time": "just now",
+      "user": "MoEFCC Policy"
+    },
+    {
+      "ic": "✓",
+      "t": "Added to cart",
+      "d": "100 t from Kabartal Sahni Wetland · ₹49,000",
+      "time": "just now",
+      "user": "Carbon Buyer"
+    },
+    {
+      "ic": "✓",
+      "t": "UPI Payment Complete",
+      "d": "₹49,000 sent to 1 custodian(s)",
+      "time": "just now",
+      "user": "Carbon Buyer"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Role switched",
+      "d": "Tribal Custodian — 6 modules accessible",
+      "time": "just now",
+      "user": "Tribal Custodian"
+    },
+    {
+      "ic": "📥",
+      "t": "CSV export downloaded",
+      "d": "sites-all-2026-05-28.csv (20 rows)",
+      "time": "2 min ago",
+      "user": "Ayush Anand"
+    },
+    {
+      "ic": "🛰",
+      "t": "Sentinel-2 scan triggered",
+      "d": "Manual scan for WSB-014",
+      "time": "8 min ago",
+      "user": "Ayush Anand"
+    },
+    {
+      "ic": "🪙",
+      "t": "Carbon credits purchased",
+      "d": "250 t @ Gauda Pat → ₹1.75 L UPI",
+      "time": "1 hour ago",
+      "user": "Demo Corp Pvt Ltd"
+    },
+    {
+      "ic": "📜",
+      "t": "FRA evidence pack generated",
+      "d": "KHU-001 · 24-page PDF",
+      "time": "2 hours ago",
+      "user": "Ayush Anand"
+    },
+    {
+      "ic": "🎙",
+      "t": "New grove registered via voice",
+      "d": "KHU-241 from Hesakora (Mundari)",
+      "time": "3 hours ago",
+      "user": "Custodian app"
+    },
+    {
+      "ic": "✓",
+      "t": "Alert acknowledged",
+      "d": "WSB-027 buffer zone request filed",
+      "time": "5 hours ago",
+      "user": "Forest Officer"
+    },
+    {
+      "ic": "⚠",
+      "t": "Critical NDVI anomaly raised",
+      "d": "Saranda Buru Bonga · 23% drop",
+      "time": "1 day ago",
+      "user": "Automated"
+    },
+    {
+      "ic": "🔗",
+      "t": "Blockchain anchor created",
+      "d": "Block #14,819 · oral testimony",
+      "time": "1 day ago",
+      "user": "Automated"
+    },
+    {
+      "ic": "📊",
+      "t": "Quarterly report exported",
+      "d": "Q2-2026 · district analysis (PDF)",
+      "time": "2 days ago",
+      "user": "Ayush Anand"
+    }
+  ],
+  "notifications": [],
+  "settings": {},
+  "scanHistory": {
+    "AUR-008": [
+      {
+        "ndviCurrent": 0.298,
+        "ndviBaseline": 0.283,
+        "ndviDelta": 0.015,
+        "affectedPx": 0,
+        "scanRunAt": "2026-05-28T18:32:56.014Z",
+        "bufferM": 2000,
+        "diagnostic": {
+          "currentSamples": 65536,
+          "currentBuckets": 1,
+          "baselineSamples": 65536,
+          "baselineBuckets": 1,
+          "noteIfZero": null
+        },
+        "source": "sentinel-hub",
+        "groveId": "AUR-008"
+      }
+    ]
+  },
+  "registeredGroves": [],
+  "tickets": [],
+  "notifRead": [],
+  "savedAt": "2026-05-28T19:38:27.935Z"
+}

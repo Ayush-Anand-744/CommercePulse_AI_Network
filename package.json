@@ -1,0 +1,16 @@
+{
+  "name": "commercepulse-ai-network",
+  "version": "1.0.0",
+  "description": "Full-stack AI commerce and carbon-market intelligence network with role-based workflows, live API proxies, evidence dashboards, and portfolio-ready deployment.",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "author": "Ayush Anand",
+  "license": "SEE LICENSE IN LICENSE"
+}

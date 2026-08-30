@@ -1,0 +1,438 @@
+{
+  "cart": [],
+  "acknowledged": [],
+  "activity": [
+    {
+      "ic": "ℹ",
+      "t": "MoEFCC final approval",
+      "d": "BETTIAH GROVE → moefcc-approved",
+      "time": "just now",
+      "user": "MoEFCC Policy"
+    },
+    {
+      "ic": "🏛",
+      "t": "Carbon credit release approved",
+      "d": "KHU-001 · payout auth issued",
+      "time": "just now",
+      "user": "Asha Sharma"
+    },
+    {
+      "ic": "✓",
+      "t": "🏛 Credit release APPROVED",
+      "d": "Buyer certificate + 10 custodian payouts authorised",
+      "time": "just now",
+      "user": "MoEFCC Policy"
+    },
+    {
+      "ic": "✓",
+      "t": "Grove added",
+      "d": "New site registered · Sentinel-2 monitoring active",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Generating ZSI report…",
+      "d": "Opening print-ready document",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "NDVI scan complete",
+      "d": "Current 0.392 · Δ +0.392 · 0 affected px · SENTINEL-HUB",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "Additionality verified",
+      "d": "KHU-001 · forwarded to MoEFCC",
+      "time": "just now",
+      "user": "Dr. Rajesh Kumar"
+    },
+    {
+      "ic": "✓",
+      "t": "✓ Additionality verified",
+      "d": "Routed to 1 MoEFCC officers for credit release",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Generating ZSI dashboard report…",
+      "d": "Opening print-ready document",
+      "time": "just now",
+      "user": "MoEFCC Policy"
+    },
+    {
+      "ic": "✓",
+      "t": "📚 NATURE citation copied",
+      "d": "Paste into your manuscript",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "📚 IEEE citation copied",
+      "d": "Paste into your manuscript",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "📚 APA citation copied",
+      "d": "Paste into your manuscript",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "Citation copied",
+      "d": "Academic citation ready for paper",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "Download started",
+      "d": "sarna-net-anonymized-ROH-027-2026-05-29.csv (0.2 KB)",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "✓ Dataset approved + sent",
+      "d": "Carbon stock estimates → Dr. Priya Verma's inbox",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "ZSI dataset approval",
+      "d": "Carbon stock estimates → Dr. Priya Verma",
+      "time": "just now",
+      "user": "Dr. Rajesh Kumar"
+    },
+    {
+      "ic": "➡",
+      "t": "ZSI Scientist → MoEFCC Policy",
+      "d": "IUCN Red-List concern at Pakur Pahariya CommercePulse",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Routed to MoEFCC Policy",
+      "d": "IUCN Red-List concern at Pakur Pahariya CommercePulse",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "🔬 Query routed",
+      "d": "Sent to 1 ZSI scientists",
+      "time": "just now",
+      "user": "Carbon Buyer"
+    },
+    {
+      "ic": "🔬",
+      "t": "Additionality query",
+      "d": "KHU-001 · from Carbon Commit Trust",
+      "time": "just now",
+      "user": "Bachcha Singh"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Compliance report",
+      "d": "BRSR + GRI export ready",
+      "time": "just now",
+      "user": "Carbon Buyer"
+    },
+    {
+      "ic": "ℹ",
+      "t": "BRSR export queued",
+      "d": "Available shortly",
+      "time": "just now",
+      "user": "Carbon Buyer"
+    },
+    {
+      "ic": "✓",
+      "t": "Signed in",
+      "d": "Dr. Priya Verma · Senior Research Fellow · Wildlife Institute of India · MoU Liaison",
+      "time": "just now",
+      "user": "Researcher"
+    }
+  ],
+  "notifications": [],
+  "settings": {},
+  "scanHistory": {
+    "PAK-012": [
+      {
+        "ndviCurrent": 0.309,
+        "ndviBaseline": 0,
+        "ndviDelta": 0.309,
+        "affectedPx": 0,
+        "scanRunAt": "2026-05-29T10:25:27.362Z",
+        "bufferM": 2000,
+        "diagnostic": {
+          "currentSamples": 65536,
+          "currentBuckets": 1,
+          "baselineSamples": 0,
+          "baselineBuckets": 1,
+          "noteIfZero": "Zero NDVI usually means: (1) no clear-sky imagery in window, (2) bbox over water/no-data, or (3) Sentinel quota exhausted. Check server console for raw response."
+        },
+        "source": "sentinel-hub",
+        "groveId": "PAK-012"
+      }
+    ],
+    "CHA-019": [
+      {
+        "ndviCurrent": 0.392,
+        "ndviBaseline": 0,
+        "ndviDelta": 0.392,
+        "affectedPx": 0,
+        "scanRunAt": "2026-05-29T11:50:40.297Z",
+        "bufferM": 2000,
+        "diagnostic": {
+          "currentSamples": 65536,
+          "currentBuckets": 1,
+          "baselineSamples": 0,
+          "baselineBuckets": 1,
+          "noteIfZero": "Zero NDVI usually means: (1) no clear-sky imagery in window, (2) bbox over water/no-data, or (3) Sentinel quota exhausted. Check server console for raw response."
+        },
+        "source": "sentinel-hub",
+        "groveId": "CHA-019"
+      }
+    ]
+  },
+  "registeredGroves": [
+    {
+      "id": "NEW-1781545",
+      "name": "BETTIAH GROVE",
+      "district": "West Champaran",
+      "state": "Bihar",
+      "tribe": "",
+      "lat": 26.802389,
+      "lng": 84.504461,
+      "areaHa": 0,
+      "deity": "",
+      "keyFauna": [],
+      "keyFlora": [],
+      "oralHistory": "",
+      "threats": "",
+      "photoData": null,
+      "audioData": null,
+      "audioTranscript": null,
+      "autoFetched": {
+        "lat": 26.802389,
+        "lng": 84.504461,
+        "fetchedAt": "2026-05-29T16:22:39.040Z",
+        "sources": {
+          "geocode": "openstreetmap-nominatim",
+          "elevation": "open-elevation",
+          "fauna": "gbif",
+          "birds": "gbif-aves"
+        },
+        "address": {
+          "district": "Bettiah",
+          "state": "Bihar",
+          "country": "India",
+          "displayName": "Bettiah, West Champaran, Bihar, 845438, India"
+        },
+        "elevation_m": 81,
+        "fauna": [
+          {
+            "name": "Epipremnum aureum",
+            "vernacular": null,
+            "iucn": null,
+            "family": "Araceae"
+          },
+          {
+            "name": "Eclipta prostrata",
+            "vernacular": null,
+            "iucn": "LC",
+            "family": "Asteraceae"
+          },
+          {
+            "name": "Tadorna ferruginea",
+            "vernacular": "Ruddy Shelduck",
+            "iucn": "LC",
+            "family": "Anatidae"
+          },
+          {
+            "name": "Furcraea foetida",
+            "vernacular": null,
+            "iucn": null,
+            "family": "Asparagaceae"
+          },
+          {
+            "name": "Phylloscopus humei",
+            "vernacular": "Hume's Warbler",
+            "iucn": "LC",
+            "family": "Phylloscopidae"
+          },
+          {
+            "name": "Passer domesticus",
+            "vernacular": "House Sparrow",
+            "iucn": "LC",
+            "family": "Passeridae"
+          },
+          {
+            "name": "Motacilla citreola",
+            "vernacular": "Citrine Wagtail",
+            "iucn": "LC",
+            "family": "Motacillidae"
+          },
+          {
+            "name": "Acridotheres tristis",
+            "vernacular": "Common Myna",
+            "iucn": "LC",
+            "family": "Sturnidae"
+          },
+          {
+            "name": "Corvus macrorhynchos",
+            "vernacular": "Large-billed Crow",
+            "iucn": "LC",
+            "family": "Corvidae"
+          },
+          {
+            "name": "Athene brama",
+            "vernacular": "Spotted Owlet",
+            "iucn": "LC",
+            "family": "Strigidae"
+          },
+          {
+            "name": "Cinnyris asiaticus",
+            "vernacular": "Purple Sunbird",
+            "iucn": "LC",
+            "family": "Nectariniidae"
+          },
+          {
+            "name": "Psidium guajava",
+            "vernacular": null,
+            "iucn": "LC",
+            "family": "Myrtaceae"
+          },
+          {
+            "name": "Phyllanthus acidus",
+            "vernacular": null,
+            "iucn": null,
+            "family": "Phyllanthaceae"
+          },
+          {
+            "name": "Cynodon dactylon",
+            "vernacular": null,
+            "iucn": null,
+            "family": "Poaceae"
+          }
+        ],
+        "birds": [
+          {
+            "name": "Tadorna ferruginea",
+            "vernacular": "Ruddy Shelduck",
+            "iucn": "LC"
+          },
+          {
+            "name": "Ardea cinerea",
+            "vernacular": "Gray Heron",
+            "iucn": "LC"
+          },
+          {
+            "name": "Phalacrocorax carbo",
+            "vernacular": "Great Cormorant",
+            "iucn": "LC"
+          },
+          {
+            "name": "Hirundo rustica",
+            "vernacular": "Barn Swallow",
+            "iucn": "LC"
+          },
+          {
+            "name": "Circus aeruginosus",
+            "vernacular": "Western Marsh Harrier",
+            "iucn": "LC"
+          },
+          {
+            "name": "Fulica atra",
+            "vernacular": "Eurasian Coot",
+            "iucn": "LC"
+          },
+          {
+            "name": "Ardea Linnaeus, 1758",
+            "vernacular": "Eastern Cattle-Egret",
+            "iucn": null
+          },
+          {
+            "name": "Spatula querquedula",
+            "vernacular": "Garganey",
+            "iucn": "LC"
+          },
+          {
+            "name": "Cuculus varius",
+            "vernacular": "Common Hawk-Cuckoo",
+            "iucn": null
+          },
+          {
+            "name": "Rostratula benghalensis",
+            "vernacular": "Greater Painted-Snipe",
+            "iucn": "LC"
+          },
+          {
+            "name": "Psilopogon zeylanicus",
+            "vernacular": "Brown-headed Barbet",
+            "iucn": "LC"
+          },
+          {
+            "name": "Falco chicquera",
+            "vernacular": "Red-necked Falcon",
+            "iucn": "NT"
+          }
+        ]
+      },
+      "status": "moefcc-approved",
+      "submittedByUserId": "U-00192",
+      "submittedByName": "Manjhi Mahato",
+      "submittedByRole": "custodian",
+      "submittedAt": "2026-05-29T16:23:01.545Z",
+      "forestVerifiedBy": null,
+      "forestVerifiedAt": null,
+      "forestNote": null,
+      "zsiVerifiedBy": "Dr. Rajesh Kumar",
+      "zsiVerifiedAt": "2026-05-29T16:25:17.402Z",
+      "zsiNote": "DONE",
+      "moefccApprovedBy": "Asha Sharma",
+      "moefccApprovedAt": "2026-05-29T16:26:07.823Z",
+      "moefccNote": "APPROVED",
+      "rejectedBy": null,
+      "rejectedAt": null,
+      "rejectionReason": null,
+      "auditTrail": [
+        {
+          "at": "2026-05-29T16:23:01.545Z",
+          "by": "Manjhi Mahato",
+          "role": "custodian",
+          "action": "submitted",
+          "note": "New sacred site registered"
+        },
+        {
+          "at": "2026-05-29T16:25:17.402Z",
+          "by": "Dr. Rajesh Kumar",
+          "role": "scientist",
+          "action": "zsi-verify",
+          "note": "DONE"
+        },
+        {
+          "at": "2026-05-29T16:26:07.823Z",
+          "by": "Asha Sharma",
+          "role": "policy",
+          "action": "moefcc-approve",
+          "note": "APPROVED"
+        }
+      ]
+    }
+  ],
+  "tickets": [],
+  "notifRead": [],
+  "savedAt": "2026-05-29T17:23:29.449Z"
+}

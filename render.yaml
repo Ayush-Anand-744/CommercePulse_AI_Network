@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: commercepulse-ai-network
+    env: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /var/data
+      - key: CORS_ORIGINS
+        value: "*"
+    disk:
+      name: commercepulse-data
+      mountPath: /var/data
+      sizeGB: 1

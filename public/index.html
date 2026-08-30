@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CommercePulse_AI_Network</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="assets/ayush-premium.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+  <linearGradient id="g-neon" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#00F5A0" stop-opacity=".4"/><stop offset="100%" stop-color="#00F5A0" stop-opacity="0"/></linearGradient>
+  <linearGradient id="g-bar" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#00F5A0"/><stop offset="100%" stop-color="#00B377"/></linearGradient>
+</defs></svg>
+
+<div class="app">
+  <aside class="side scroll" id="side"></aside>
+  <header class="top">
+    <div class="crumbs"><span>Workspace</span><span>/</span><b id="crumb">Dashboard</b></div>
+    <div class="search-w">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input class="search-i" id="search" placeholder="Search sites, custodians, species…" oninput="renderSearchResults(this.value.toLowerCase().trim())">
+      <span class="kbd">⌘K</span>
+      <div class="search-d" id="search-d"></div>
+    </div>
+    <div class="spacer-x"></div>
+    <div class="live-p"><span class="d"></span> LIVE</div>
+    <button class="icon-btn" onclick="openCmd()" title="Command palette (⌘K)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+    <button class="icon-btn" onclick="togglePanel('notif-pn')" title="Notifications">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+      <span class="dot-r"></span>
+    </button>
+    <button class="icon-btn" onclick="openModal('voice')" title="Voice register">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><path d="M12 19v4"/></svg>
+    </button>
+    <button class="icon-btn" onclick="alert('Keyboard shortcuts:\n⌘K — Command palette\nEsc — Close modal\n\nClick role dropdown to switch view')" title="Help"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3M12 17h.01"/></svg></button>
+    <div class="user-chip" id="user-chip"></div>
+    <div class="notif-pn" id="notif-pn">
+      <div class="hd" style="display:flex;justify-content:space-between;align-items:center;gap:10px"><b>Notifications</b><div style="display:flex;align-items:center;gap:8px"><span class="ct" id="notif-ct">5 NEW</span><button class="btn sm gh" style="padding:4px 9px;font-size:10px" onclick="markRoleNotifRead()">Mark read</button><button class="btn sm gh" style="padding:4px 9px;font-size:10px" onclick="navigate('inbox');document.getElementById('notif-pn').classList.remove('on')">📨 Inbox</button></div></div>
+      <div class="ls" id="notif-ls"></div>
+    </div>
+  </header>
+  <main class="main" id="main"></main>
+</div>
+
+<div class="toast-wrap" id="toasts"></div>
+
+<!-- Command palette -->
+<div class="cmd-bg" id="cmd-bg" onclick="if(event.target===this)closeCmd()">
+  <div class="cmd">
+    <input id="cmd-i" placeholder="Type a command or page..." oninput="renderCmdList(this.value)">
+    <div class="ls" id="cmd-ls"></div>
+  </div>
+</div>
+
+<!-- Voice modal -->
+<div class="mbg" id="m-voice"><div class="modal">
+  <div class="mhd"><h2>🎙 Register New Sacred Site <span class="b">VOICE-FIRST</span></h2><button class="mx" onclick="closeModal('voice')">×</button></div>
+  <div class="mbd" id="voice-body">
+    <div style="text-align:center;padding:6px 0">
+      <button class="vmic" id="vmic" onclick="startRec()">🎤</button>
+      <div style="font:600 14px;margin-bottom:5px">Speak in your language</div>
+      <div style="font:600 14px 'Noto Serif Devanagari';color:var(--neon);margin-bottom:16px">अपनी भाषा में बोलें · हो भाषा में चलाँ</div>
+      <div style="font-size:12px;color:var(--mute);line-height:1.6">Tap the mic. Tell us the site's name, deity, trees inside, and any threat. AI will structure the rest.</div>
+    </div>
+  </div>
+</div></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/data.js"></script>
+<script src="/app.js"></script>
+<script>init();</script>
+  <script src="/assets/ayush-premium.js"></script>
+
+<footer class="portfolio-footer">© 2026 Ayush Anand · CommercePulse_AI_Network™ · All rights reserved.</footer>
+</body>
+</html>

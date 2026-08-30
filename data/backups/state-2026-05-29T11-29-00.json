@@ -1,0 +1,124 @@
+{
+  "cart": [],
+  "acknowledged": [],
+  "activity": [
+    {
+      "ic": "✓",
+      "t": "Signed in",
+      "d": "Shyam Kumar · ACF · Banka",
+      "time": "just now",
+      "user": "Forest Officer"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Generating ZSI dashboard report…",
+      "d": "Opening print-ready document",
+      "time": "just now",
+      "user": "MoEFCC Policy"
+    },
+    {
+      "ic": "✓",
+      "t": "📚 NATURE citation copied",
+      "d": "Paste into your manuscript",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "📚 IEEE citation copied",
+      "d": "Paste into your manuscript",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "📚 APA citation copied",
+      "d": "Paste into your manuscript",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "Citation copied",
+      "d": "Academic citation ready for paper",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "Download started",
+      "d": "sarna-net-anonymized-ROH-027-2026-05-29.csv (0.2 KB)",
+      "time": "just now",
+      "user": "Researcher"
+    },
+    {
+      "ic": "✓",
+      "t": "✓ Dataset approved + sent",
+      "d": "Carbon stock estimates → Dr. Priya Verma's inbox",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "ZSI dataset approval",
+      "d": "Carbon stock estimates → Dr. Priya Verma",
+      "time": "just now",
+      "user": "Dr. Rajesh Kumar"
+    },
+    {
+      "ic": "✓",
+      "t": "NDVI scan complete",
+      "d": "Current 0.309 · Δ +0.309 · 0 affected px · SENTINEL-HUB",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "➡",
+      "t": "ZSI Scientist → MoEFCC Policy",
+      "d": "IUCN Red-List concern at Pakur Pahariya CommercePulse",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "ℹ",
+      "t": "Routed to MoEFCC Policy",
+      "d": "IUCN Red-List concern at Pakur Pahariya CommercePulse",
+      "time": "just now",
+      "user": "ZSI Scientist"
+    },
+    {
+      "ic": "✓",
+      "t": "Signed in",
+      "d": "Birsa Yadav · DFO · Aurangabad",
+      "time": "just now",
+      "user": "Forest Officer"
+    }
+  ],
+  "notifications": [],
+  "settings": {},
+  "scanHistory": {
+    "PAK-012": [
+      {
+        "ndviCurrent": 0.309,
+        "ndviBaseline": 0,
+        "ndviDelta": 0.309,
+        "affectedPx": 0,
+        "scanRunAt": "2026-05-29T10:25:27.362Z",
+        "bufferM": 2000,
+        "diagnostic": {
+          "currentSamples": 65536,
+          "currentBuckets": 1,
+          "baselineSamples": 0,
+          "baselineBuckets": 1,
+          "noteIfZero": "Zero NDVI usually means: (1) no clear-sky imagery in window, (2) bbox over water/no-data, or (3) Sentinel quota exhausted. Check server console for raw response."
+        },
+        "source": "sentinel-hub",
+        "groveId": "PAK-012"
+      }
+    ]
+  },
+  "registeredGroves": [],
+  "tickets": [],
+  "notifRead": [],
+  "savedAt": "2026-05-29T11:07:04.362Z"
+}
